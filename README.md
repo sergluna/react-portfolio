@@ -1,2 +1,2 @@
 # react-portfolio
-Creating mt portfolio with react
+Creating my portfolio with react
