@@ -5,7 +5,7 @@ function Navbar({setCurrentPage}) {
     const onNavClickHandler = (page) => {
         setCurrentPage(page);
     }
-    return ( <nav className="navbar navbar-expand lg navbar-light bg-light">
+    return ( <nav className="navbar navbar-expand lg navbar-light bg-secondary.bg-gradient" >
         <div className="collapse navbar-collapse">
         <ul className="navbar-nav ml-auto">
             <li className="nav-item">
