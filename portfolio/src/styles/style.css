@@ -54,7 +54,7 @@ a {
     color: black;
 }
 
-.about-me, .work {
+.about-me, .work, .nav {
     /* outline-style: solid; */
     background-color: var(--background);
     padding: 2%;
