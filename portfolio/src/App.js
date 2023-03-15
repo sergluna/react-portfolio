@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from './components/Layout';
-// import './App.css';
+import '../src/styles/style.css';
 import Portfolio from './components/Page/Portfolio';
 import About from "./components/Page/About"
 import Contact from "./components/Page/Contact"
@@ -15,7 +15,7 @@ function App() {
   }
   
   return (
-    <Layout setCurrentPage={setCurrentPage}>
+    <Layout setCurrentPage={setCurrentPage} >
       <main>
       {renderPage()}
       </main>
