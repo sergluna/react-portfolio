@@ -8,7 +8,7 @@ function Layout({children, setCurrentPage}) {
     return (<>
     <Header setCurrentPage={setCurrentPage}/>
     {children}
-    <Footer />
+    {/* <Footer /> */}
     </> );
 }
 
